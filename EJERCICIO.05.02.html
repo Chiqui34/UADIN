@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>05. TIPO DE SELECTORES</title>
+    <style>
+        body {
+            background-color: rgba(21, 114, 182, 0.85);
+        }
+        
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        
+        div#principal {
+            background-color: white;
+            width: fit-content;
+            margin: auto;
+            margin-top: 50px;
+            overflow: hidden;
+            padding-right: 80px;
+            padding-left: 80px;
+            padding-bottom: 20px;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        a {
+            /* falta un estilo para los elementos bajen */
+            /* ... */
+            display: block;
+            text-decoration: none;
+            line-height : 23px;
+        }
+
+        a[rel~="nofollow"] {
+            color: red;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a[href$=".pdf"] {
+            background-image: url("icons/pdf.svg");
+            background-repeat:no-repeat;
+            padding-left: 20px;
+        }
+
+        a[href$=".docx"] {
+            background-image: url("icons/word.svg");
+            background-repeat:no-repeat;
+            padding-left: 20px;
+        }
+
+        a[href$=".xlsx"] {
+            background-image: url("icons/excel.svg");
+            background-repeat:no-repeat;
+            padding-left: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="principal">
+        <h2>ENLACES</h2>
+        <a href="documento.pdf" rel="nofollow">&nbsp;enlace 1</a>
+        <a href="documento.docx" rel="external">&nbsp;enlace 2</a>
+        <a href="documento.pdf" rel="nofollow external">&nbsp;enlace 3</a>
+        <a href="documento.xlsx" rel="external friend nofollow">&nbsp;enlace 4</a>
+    </div>
+
+</body>
+
+</html>
