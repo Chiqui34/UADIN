@@ -34,6 +34,9 @@
             display: block;
             text-decoration: none;
             line-height : 23px;
+            height: 25px;
+            margin-bottom: 10px;
+            padding-left: 35px;
         }
 
         a[rel~="nofollow"] {
@@ -41,25 +44,22 @@
         }
         
         a:hover {
-            text-decoration: underline;
+            text-decoration: underline;            
         }
 
         a[href$=".pdf"] {
             background-image: url("icons/pdf.svg");
             background-repeat:no-repeat;
-            padding-left: 20px;
         }
 
         a[href$=".docx"] {
             background-image: url("icons/word.svg");
             background-repeat:no-repeat;
-            padding-left: 20px;
         }
 
         a[href$=".xlsx"] {
             background-image: url("icons/excel.svg");
             background-repeat:no-repeat;
-            padding-left: 20px;
         }
     </style>
 
@@ -69,10 +69,10 @@
 <body>
     <div id="principal">
         <h2>ENLACES</h2>
-        <a href="documento.pdf" rel="nofollow">&nbsp;enlace 1</a>
-        <a href="documento.docx" rel="external">&nbsp;enlace 2</a>
-        <a href="documento.pdf" rel="nofollow external">&nbsp;enlace 3</a>
-        <a href="documento.xlsx" rel="external friend nofollow">&nbsp;enlace 4</a>
+        <a href="documento.pdf" rel="nofollow">enlace 1</a>
+        <a href="documento.docx" rel="external">enlace 2</a>
+        <a href="documento.pdf" rel="nofollow external">enlace 3</a>
+        <a href="documento.xlsx" rel="external friend nofollow">enlace 4</a>
     </div>
 
 </body>
