@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+
+body {
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  padding: 40px;
+}
+
+article {
+  width: 220px;
+  background-color: #ffffffaa;
+  padding: 20px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+time {
+  font-size: 10px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+}
+
+img.frontal {
+  width: 80px;
+  height: 90px;
+}
+
+img.cielo {
+  width: 180px;
+  height: 100px;
+}
+
+img.chica {
+}
